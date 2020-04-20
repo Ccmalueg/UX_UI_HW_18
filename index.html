@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <title>Practice site</title>
+    <link rel="stylesheet" href="Css HW17/style.css">
+</head>
+<body>
+    <div class="container"> 
+    <header>
+    <img src="Images/LOGO Nav.png" alt="cm logo" class="logo">
+    
+        <nav>
+            <a href="#" class="hide-desktop">
+                <img src="Images/Hamburger_icon.svg" alt="toggle menu" class="menu" id="menu">
+            </a>
+        <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop"><img src="Images/exit.svg" alt="exit menu"></a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">art</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section >
+        <img src="Images/Me in jeans.JPG" alt="me in jeans" class="jeans">
+        
+        <h1> Hi, I'm Charlie Malueg</h1>
+        <p class="subhead">Designer and creator of memorable experiences.</p>
+    </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#" class="fstvl">
+                    <img src="Images/fstvl1.png" alt="fstvl" class="fstvl">
+                    <p>FSTVL App</p>
+                    </a>
+                </li>
+                <li>
+                        <a href="#" class="fssite">
+                        <img src="Images/fsweb.png" alt="fs desktop" class="fssite">
+                        <p>Forest Service Redesign</p>
+                        </a>
+                </li>
+                <li>
+                        <a href="#" class="thrive">
+                        <img src="Images/thirve.png" alt="Thrive" class="thrive">
+                        <p>ThriveApp</p>
+                        </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="container">
+        <h2>Download Resume</h2>
+        <a href="#" class=cta>Download</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="Images/LOGO Nav.png" alt="logo">
+                </a>
+                <p class="contact">Contact Me:<br>Charles.Malueg@gmail.com<br>IG: UXDaily</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+        
+    menu.addEventListener('click', function(e) {
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+    });
+
+    exit.addEventListener('click', function(e) {
+        nav.classList.add('hide-mobile');
+        e.preventDefault();
+    });
+
+    </script>
+
+
+</body>
+</html> 

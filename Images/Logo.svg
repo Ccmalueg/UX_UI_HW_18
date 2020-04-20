@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="112" viewBox="0 0 154 112">
+  <defs>
+    <filter id="CM" x="19.2" y="13.2" width="108.6" height="81.6" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#34d8ff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="46.232" y="42.084" width="60.341" height="59.788" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-color="#34d8ff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="154" height="112"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="LOGO" transform="translate(-172 -141)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="62" cy="36.5" rx="62" ry="36.5" transform="translate(183 158)" fill="#34d8fd" opacity="0.678"/>
+      <g transform="matrix(1, 0, 0, 1, 172, 141)" filter="url(#CM)">
+        <text id="CM-2" data-name="CM" transform="translate(34.5 28.5)" fill="#fff" stroke="#34d8ff" stroke-width="0.3" font-size="50" font-family="Lovelo-LineLight, Lovelo" font-weight="300"><tspan x="0" y="38">CM</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 172, 141)" filter="url(#Path_1)">
+        <path id="Path_1-2" data-name="Path 1" d="M0,32.993C35.847,32.86,27.848,0,27.848,0" transform="translate(79.77 49.74) rotate(50)" fill="none" stroke="#fff" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
