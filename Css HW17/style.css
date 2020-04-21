@@ -271,6 +271,9 @@ nav ul li a:hover {
 
 }
 @media only screen and (min-width: 875px) {
+    .jeans {
+        width: 30%;
+    }
     .subhead { 
         margin-bottom: 15%;
     }
