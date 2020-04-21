@@ -82,6 +82,10 @@ h1 .subhead {
     transform: skewY(2deg);
 }
 
+.blue-container p {
+    font-size: x-large ;
+}
+
 .blue-container ul li {
     margin-bottom: 3em;
 }
@@ -104,6 +108,29 @@ h1 .subhead {
 
 h2 {
     margin-top: 7%
+}
+
+.gray-container p {
+    font-size: x-large;
+}
+
+.gray-container ul li {
+    margin-bottom: 2em;
+}
+
+.gray-container {
+    background: #f6f6f6;
+    padding: 4em 0 2em;
+    margin-top: -3%;
+}
+
+figure {
+margin: 0;
+padding: 0;
+}
+
+h2 {
+    margin-top: 7%;
 }
 
 .cta {
