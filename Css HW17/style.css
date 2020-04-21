@@ -259,6 +259,12 @@ nav ul li a:hover {
     .thrive {
         width: 55%;
     }
+
+    .gray-container ul {
+        display: flex;
+    }
+
+
     .nav ul {
         width: 40%;
     }
