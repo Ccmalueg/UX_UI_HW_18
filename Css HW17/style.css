@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: 'Sen', sans-serif;
@@ -13,7 +16,7 @@ ul {
 }
 .container {
     text-align: center;
-    padding: .8em 1.2em;
+    padding: .8em;
 }
 .logo {
     width: 130px
@@ -328,6 +331,20 @@ nav ul li a:hover {
     }
     nav ul li a:hover {
         background-color: inherit;
+    }
+
+    .scroll {
+        width: 25px;
+        animation: move 1s infinite alternate;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(50px);
+        }
     }
 }
 @media only screen and (min-width: 1600px) {
